@@ -3,6 +3,9 @@ import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 
+//this is showing up as undefined...
+const clarifaiApiKey= process.env.CLARIFAI_API_KEY;
+console.log("SUUUUUP!", clarifaiApiKey)
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,
