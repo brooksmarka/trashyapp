@@ -13,15 +13,15 @@
   "dependencies": {
     "@expo/samples": "2.1.1",
     "clarifai": "^2.9.1",
-    "expo": "^32.0.0",
+    "expo": "^50.0.13",
     "isomorphic-fetch": "^3.0.0",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "react-native-camera": "^2.1.1",
-    "react-navigation": "^3.0.9"
+    "react-navigation": "^3.13.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
+    "babel-preset-expo": "^10.0.1",
     "jest-expo": "^50.0.1"
   },
   "private": true
